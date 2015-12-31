@@ -1,48 +1,24 @@
-# markdown_npp
+# Markdown for Notepad++
 
-## Overview
+This project is a user-defined language that adds Markdown syntax highlighting to Notepad++. Dissatisfied with other people's versions, I made my own. Due to the limitations of user-defined languages, not all Markdown features are supported; however, this will probably be enough for most people.
 
-This project provides a very simple user defined language file for Notepad++ that does some basic syntax highlighting for markdown texts. This is my version of the markdown theme for notepad++, if you want the original one, go [here](https://github.com/jjchiw/markdown_npp).
+Two styles are included: one meant for dark themes, one for light. 
 
-## Usage
+## How to use it
 
-Installation instructions (taken from Notepad++ Web site [1]):
-
-1. Download the user-defined language to your computer
-2. Open the file with your favourite text editor (such as notepad++ or
-   notepad)
-3. Click start, run, type (or paste in) %APPDATA%\Notepad++ then click ok
-4. Open userDefineLang.xml with a text editor
-5. If this is the first userdefined language you are adding, copy/paste the
-   entire first file (which you downloaded) into the userDefineLang.xml, 
-   replacing all that was there. If this is the second or more language you 
-   add, simply copy everything from the first file starting at <UserLang...> 
-   to </UserLang> and paste it at the end of the userDefineLang.xml right 
-   before </NotepadPlus>
-6. Save the newly improved userDefineLang.xml
-
-
-[1]: http://notepad-plus.sourceforge.net/uk/site.htm
-
+1. Click on the link to `userDefineLang.xml` to get the code you need. (You can also download the file and open it in a text editor, if you like.) 
+1. Open File Explorer and enter `%APPDATA%\Notepad++\` in the location bar. 
+2. If there is a file called `userDefineLang.xml`, open it in any text editor. If not, create it: right-click, choose `New > Text Document`, and save the file as `userDefineLang.xml`.
+3. If this is the first user-defined language you are adding, copy and paste everything from my version of `userDefineLang.xml` into the version on your computer, replacing anything that was there. If you already have user-defined languages, just copy everything from my version between `<NotepadPlus>` and `</NotepadPlus>`, then paste it into your `userDefineLang.xml` file right before `</NotepadPlus>`.
+4. Save your file and restart Notepad++.
+5. Markdown Dark and Light will now appear as options at the very bottom of the `Language` menu.
 
 ## Copyright and License
 
 Copyright (c) 2010 Thomas Smits
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
