@@ -1,6 +1,6 @@
 # Markdown for Notepad++
 
-This project is a user-defined language that adds Markdown syntax highlighting to Notepad++. Dissatisfied with other people's versions, I made my own. Due to the limitations of user-defined languages, not all Markdown features are supported; however, this will probably be enough for most people.
+This project is a user-defined language that adds Markdown syntax highlighting to [Notepad++](http://notepad-plus-plus.org). Dissatisfied with other people's versions, I made my own. Due to the limitations of user-defined languages, not all Markdown features are supported; however, this will probably be enough for most people.
 
 Two styles are included: one meant for dark themes, one for light. 
 
@@ -12,6 +12,12 @@ Two styles are included: one meant for dark themes, one for light.
 3. If this is the first user-defined language you are adding, copy and paste everything from my version of `userDefineLang.xml` into the version on your computer, replacing anything that was there. If you already have user-defined languages, just copy everything from my version between `<NotepadPlus>` and `</NotepadPlus>`, then paste it into your `userDefineLang.xml` file right before `</NotepadPlus>`.
 4. Save your file and restart Notepad++.
 5. Markdown Dark and Light will now appear as options at the very bottom of the `Language` menu.
+
+## More customization options
+
+You can make changes to these user-defined languages by opening the `Language` menu, choosing `Define your language...`, and selecting the one you want to change in the `User language `drop-down list in the User Defined Language window.
+
+Personally, I like using the font [Input](http://input.fontbureau.com/) and Chris Kempson's [Tomorrow theme](https://github.com/ChrisKempson/Tomorrow-Theme).
 
 ## Copyright and License
 
