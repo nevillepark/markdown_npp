@@ -11,7 +11,7 @@ Two styles are included: one meant for dark themes, one for light.
 2. If there is a file called `userDefineLang.xml`, open it in any text editor. If not, create it: right-click, choose `New > Text Document`, and save the file as `userDefineLang.xml`.
 3. If this is the first user-defined language you are adding, copy and paste everything from my version of `userDefineLang.xml` into the version on your computer, replacing anything that was there. If you already have user-defined languages, just copy everything from my version between `<NotepadPlus>` and `</NotepadPlus>`, then paste it into your `userDefineLang.xml` file right before `</NotepadPlus>`.
 4. Save your file and restart Notepad++.
-5. Markdown Dark and Light will now appear as options at the very bottom of the `Language` menu.
+5. Markdown and Markdown Dark will now appear as options at the very bottom of the `Language` menu.
 
 ## More customization options
 
